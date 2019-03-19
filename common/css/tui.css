@@ -1,0 +1,88 @@
+
+.tui-flex {
+	width: 100%;
+	display: flex;
+	/* flex-direction: row; */
+	box-sizing: border-box;
+	/* background: #fff; */
+}
+.tui-tip{
+	position:absolute;
+	background: #FF3030;
+	color: #fff;
+}
+.border{
+	border: 1rpx solid #ededed;
+}
+.button{
+	padding:6rpx 10rpx;
+	line-height: 1em;
+	/* padding-bottom: 1rpx; */
+	border-radius:5rpx ;
+}
+.padding{
+	padding: 15rpx;
+}
+.list{
+	padding: 15rpx;
+	background: #fff;
+}
+.center{
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+	align-items:center;
+}
+.row{
+	flex-direction: row;
+}
+.tui-flex-item {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+}
+.column{
+	flex-direction: column;
+}
+label{
+	padding-left:20rpx ;
+	padding-right: 20rpx;
+}
+.tui-from{
+	
+}
+.tui-input{
+	flex: 1;
+}
+
+.weight{
+	font-weight: bold;
+}
+nav{
+	position: fixed;
+}
+/* .uni-row {
+	flex-direction: row;
+}
+.uni-column {
+	flex-direction: column;
+}
+.uni-link{
+	color:#576B95;
+	font-size:26upx;
+}
+.uni-center{
+	text-align:center;
+}
+.uni-inline-item{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+}
+.uni-inline-item text{
+	margin-right: 20upx;
+}
+.uni-inline-item text:last-child{
+	margin-right: 0upx;
+	margin-left: 20upx;
+} */
